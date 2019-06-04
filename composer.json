@@ -33,7 +33,7 @@
   "require": {
     "illuminate/database": "^5.8",
     "illuminate/support": "^5.8",
-    "studiow/laravel-filtering": "^0.0.1",
+    "studiow/laravel-filtering": "^0.0.2",
     "laravelcollective/html": "^5.8"
   }
 }
