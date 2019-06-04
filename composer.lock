@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77180d3dd4b08b6e862cc0d80b70aca6",
+    "content-hash": "05ce809c4d22b0cb6137b67bbb3041e8",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1105,16 +1105,16 @@
         },
         {
             "name": "studiow/laravel-filtering",
-            "version": "v0.0.2",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studiowbe/laravel-filter.git",
-                "reference": "8b4a9f2a0ceb8a2945cbcb72e3284495dea62d1c"
+                "reference": "f595696f0e4bc55153e67788c16759b563931c66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studiowbe/laravel-filter/zipball/8b4a9f2a0ceb8a2945cbcb72e3284495dea62d1c",
-                "reference": "8b4a9f2a0ceb8a2945cbcb72e3284495dea62d1c",
+                "url": "https://api.github.com/repos/studiowbe/laravel-filter/zipball/f595696f0e4bc55153e67788c16759b563931c66",
+                "reference": "f595696f0e4bc55153e67788c16759b563931c66",
                 "shasum": ""
             },
             "require": {
@@ -1141,7 +1141,7 @@
                 }
             ],
             "description": "Provides a unified filter interface for Collections, Database and Eloquent Queries",
-            "time": "2019-06-04T08:31:56+00:00"
+            "time": "2019-06-04T08:54:28+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
