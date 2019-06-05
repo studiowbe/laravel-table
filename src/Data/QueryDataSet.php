@@ -29,7 +29,7 @@ class QueryDataSet implements DataSet
 
     public function paginate(int $perPage = 15, string $pageName = 'page', ?int $page = null): LengthAwarePaginator
     {
-        return $this->filter->query()->paginate($perPage, '[*]', $pageName, $page);
+        return $this->filter->query()->paginate($perPage, ['*'], $pageName, $page);
     }
 
     public function where(string $key, $operator, $value = null, $boolean = 'and')
