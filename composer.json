@@ -35,6 +35,6 @@
     "illuminate/support": "^5.8",
 
     "laravelcollective/html": "^5.8",
-    "studiow/laravel-filtering": "^0.0.3"
+    "studiow/laravel-filtering": "^0.0.5"
   }
 }

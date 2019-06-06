@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05ce809c4d22b0cb6137b67bbb3041e8",
+    "content-hash": "92aa9b6826a23df5a450a2a7a59bfe85",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -286,16 +286,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.8.19",
+            "version": "v5.8.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "47bb1471b727a0c1497143dccf46aacf73c0ce6b"
+                "reference": "c78796cc1159c8dc63c45a2011ddc4af17059cb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/47bb1471b727a0c1497143dccf46aacf73c0ce6b",
-                "reference": "47bb1471b727a0c1497143dccf46aacf73c0ce6b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c78796cc1159c8dc63c45a2011ddc4af17059cb4",
+                "reference": "c78796cc1159c8dc63c45a2011ddc4af17059cb4",
                 "shasum": ""
             },
             "require": {
@@ -429,7 +429,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-05-28T13:19:37+00:00"
+            "time": "2019-06-05T00:13:05+00:00"
         },
         {
             "name": "laravelcollective/html",
@@ -663,16 +663,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.19.0",
+            "version": "2.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "c3545b39197d314205226ac3c33cb4db99aa54ab"
+                "reference": "5cf102d1476fdf92f1f991bd1a1a0d93c65755ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/c3545b39197d314205226ac3c33cb4db99aa54ab",
-                "reference": "c3545b39197d314205226ac3c33cb4db99aa54ab",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/5cf102d1476fdf92f1f991bd1a1a0d93c65755ca",
+                "reference": "5cf102d1476fdf92f1f991bd1a1a0d93c65755ca",
                 "shasum": ""
             },
             "require": {
@@ -719,7 +719,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-05-30T10:15:05+00:00"
+            "time": "2019-06-04T20:07:46+00:00"
         },
         {
             "name": "opis/closure",
@@ -1105,16 +1105,16 @@
         },
         {
             "name": "studiow/laravel-filtering",
-            "version": "v0.0.3",
+            "version": "v0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/studiowbe/laravel-filter.git",
-                "reference": "f595696f0e4bc55153e67788c16759b563931c66"
+                "reference": "a47f96e9af7d5314ce19b6f59dfcbb6ee0cde71a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studiowbe/laravel-filter/zipball/f595696f0e4bc55153e67788c16759b563931c66",
-                "reference": "f595696f0e4bc55153e67788c16759b563931c66",
+                "url": "https://api.github.com/repos/studiowbe/laravel-filter/zipball/a47f96e9af7d5314ce19b6f59dfcbb6ee0cde71a",
+                "reference": "a47f96e9af7d5314ce19b6f59dfcbb6ee0cde71a",
                 "shasum": ""
             },
             "require": {
@@ -1141,7 +1141,7 @@
                 }
             ],
             "description": "Provides a unified filter interface for Collections, Database and Eloquent Queries",
-            "time": "2019-06-04T08:54:28+00:00"
+            "time": "2019-06-06T08:08:38+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
