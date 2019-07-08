@@ -1,12 +1,11 @@
 <?php
 /**
- * @var  $table \Studiow\Laravel\Table\Table
- *
+ * @var \Studiow\Laravel\Table\Table
  */
 ?>
 <?php if ($table->needsForm()): ?>
 <form method="get">
-    <?php endif;?>
+    <?php endif; ?>
     <?php if ($table->hasActions() || $table->hasFilters()): ?>
     <header>
         <?php if ($table->hasActions()): ?>
@@ -17,7 +16,7 @@
         <?php endif; ?>
         <?php if ($table->hasFilters()): ?>
         <div class="filters">
-            <?php foreach($table->getFilters() as $filter): ?>
+            <?php foreach ($table->getFilters() as $filter): ?>
             <span class="filter"><?= $filter; ?></span>
             <?php endforeach; ?>
             <button type="submit"><?= __('Filter'); ?></button>
@@ -35,4 +34,4 @@
     <?php if ($table->needsForm()): ?>
 
 </form>
-<?php endif;?>
+<?php endif; ?>

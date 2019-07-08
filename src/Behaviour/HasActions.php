@@ -65,7 +65,7 @@ trait HasActions
 
     public function checkboxForRow($row)
     {
-        return FormFacade::checkbox('sel[]', data_get($row, $this->selectOn),null, ['class' => 'row-select']);
+        return FormFacade::checkbox('sel[]', data_get($row, $this->selectOn), null, ['class' => 'row-select']);
     }
 
     public function checkboxForHeader()

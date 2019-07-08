@@ -2,8 +2,8 @@
 
 namespace Studiow\Laravel\Table\Data;
 
+use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Query\Builder;
-use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use Studiow\Laravel\Filtering\Filter\QueryFilter;
 use Studiow\Laravel\Table\Contracts\DataSet;

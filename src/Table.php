@@ -49,6 +49,7 @@ class Table
     {
         $this->defaultOrder = $orderBy;
         $this->defaultOrderDirection = $order;
+
         return $this;
     }
 
@@ -109,7 +110,7 @@ class Table
     private function getHeader(Column $column, Request $request)
     {
         $inner = $column->getLabel();
-        if (!$column->isSortable()) {
+        if (! $column->isSortable()) {
             return $inner;
         }
 
@@ -121,7 +122,7 @@ class Table
             $params['order'] = $request->query('order', 'asc') === 'asc' ? 'desc' : 'asc';
         }
 
-        $class = 'sortable sort-' . $params['order'];
+        $class = 'sortable sort-'.$params['order'];
         unset($params['page']);
 
         return sprintf('<a href="?%s" class="%s">%s</a>', http_build_query($params), $class, $inner);

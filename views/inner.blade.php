@@ -1,7 +1,7 @@
 <table>
     <thead>
     <tr>
-        <?php foreach($table->headers() as $header): ?>
+        <?php foreach ($table->headers() as $header): ?>
             <th><?= $header; ?></th>
         <?php endforeach; ?>
     </tr>
