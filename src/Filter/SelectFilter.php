@@ -24,7 +24,7 @@ class SelectFilter implements Filter
 
     public function apply($value, FilterTarget $filter): FilterTarget
     {
-        if (array_key_exists($value, $this->options) && ! empty($value)) {
+        if (array_key_exists($value, $this->options) && strlen($value)>0) {
             $filter = $filter->where($this->getId(), '=', $value);
         }
 
